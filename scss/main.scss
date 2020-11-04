@@ -1,0 +1,29 @@
+@import "components/Select.scss";
+
+.text-center {
+    text-align: center;
+}
+
+.wrapper {
+    .time {
+        font-size: 4em;
+    }
+
+    .weather {
+        h1 {
+            font-size: 3em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+    }
+
+    .col {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

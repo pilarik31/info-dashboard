@@ -1,0 +1,35 @@
+{
+    "name": "pila/dashboard",
+    "version": "0.1.0-beta",
+    "description": "Info dashboard.",
+    "license": "GPL-3.0-or-later",
+    "readme": "README.md",
+    "authors": [
+        {
+            "name": "John Pilar",
+            "email": "pilarjan4111@gmail.com",
+            "homepage": "https://honzapilar.cz",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "phpfastcache/phpfastcache": "^8.0"
+    },
+    "autoload": {
+        "classmap": [
+            "inc/"
+        ]
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.32",
+        "phpmd/phpmd": "@stable",
+        "squizlabs/php_codesniffer": "3.*",
+        "symfony/var-dumper": "^5.1"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "composer dumpautoload"
+        ]
+    }
+}

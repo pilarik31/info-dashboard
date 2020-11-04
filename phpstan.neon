@@ -1,0 +1,9 @@
+parameters:
+    level: max
+    paths:
+        - inc
+        - index.php
+    fileExtensions:
+        - php
+    excludes_analyse:
+        - tests/*
